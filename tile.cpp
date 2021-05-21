@@ -12,7 +12,7 @@ Tile::Tile() {
 void Tile::draw(sf::RenderWindow& window) {
     sf::RectangleShape square(sf::Vector2f(width - 1, height - 1));
     square.setPosition(x * width, y * height);
-    square.setFillColor(sf::Color::Red);
+    square.setFillColor(sf::Color::White);
     
     window.draw(square);
 }
