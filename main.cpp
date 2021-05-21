@@ -12,17 +12,7 @@ int main()
     Tile tiles[cols][rows];
     sf::RenderWindow window(sf::VideoMode(800, 600), "Game of Life");
 
-    /*sf::RectangleShape square(sf::Vector2f(46.f, 46.f));
-    sf::RectangleShape squareTwo(sf::Vector2f(46.f, 46.f));
-
-    square.setFillColor(sf::Color::White);
-    squareTwo.setFillColor(sf::Color::White);
-
-    square.setPosition(1, -1);
-    squareTwo.setPosition(48, -1);*/
-
     Tile tile = Tile(0, 0);
-
 
     for(int i = 0; i < cols; i++) {
         for(int j = 0; j < rows; j++) {
